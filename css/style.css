@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'montserrat-light';
+}
+.row-ms{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.me-auto {
+    margin-left: auto !important;
+}
+header{
+    background: url(../img/header-fon.png) no-repeat center center / cover; 
+    height: 100vh;
+    position: relative;
+    padding-top: 186px;
+}
+.fa-chevron-circle-down{
+    font-size: 35px;
+    color: #fff;
+}
+header .menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none !important;
+}
+.nav-bar-link{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-left: 12px;
+}
+.nav-bar-link:hover{
+    font-size: 15px;
+    color: #fff
+}
+.nav-button{
+    padding: 15px 37px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    background: #F6762C;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .5s;
+}
+.nav-button:hover{
+    background: rgb(255, 0, 0);
+}
+
+.header-text{
+    margin-bottom: 242px;
+}
+.header-text h4{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header-text h1{
+    font-family: 'Roboto';
+    font-size: 57.33px;
+    color: #fff;
+}
+.header-text p{
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 18px;
+    margin-top: 37px;
+    margin-bottom: 42px;
+}
+.header-text button{
+    padding:15px 37px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #F6762C;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    transition: .5s;
+}
+.header-text button:hover{
+    background: rgb(255, 0, 0);
+}
+/* header start */
+/* ****************************** */
+/* main end */
+main{
+    padding-top: 115px;
+    padding-bottom: 103px;
+    background: #E5E5E5;
+}
+main img{
+    width: 100%;
+}
+main h4{
+    font-family: 'Roboto';
+    font-size: 32px;
+    color: #313131;
+    font-weight: 600;
+}
+main p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #313131;
+}
+/* main end */
+/* ***************************** */
+/* burder-king start */
+.burger-king{
+    background: #312F30;
+    padding-top: 1px;
+    padding-bottom: 43px;
+}
+.burger-king img{
+    width: 100%;
+}
+
+.burger-king h1{
+    font-family: 'Roboto';
+    font-size: 44px;
+    color: #fff;
+    padding-top: 165px;
+    padding-bottom: 24px;
+}
+.burger-king .p-1{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #fff;
+
+}
+.burger-king .p-2{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: rgba(246, 118, 44, 0.5);
+}
+.burger-king .p-2 span{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #F6762C;
+}
+.burger-king button{
+    padding:15px 37px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #F6762C;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    transition: .5s;
+}
+.burger-king button:hover{
+    background: rgb(255, 0, 0);
+}
+/* burger-king end */
+/* ************************** */
+/*  all-foods start */
+.all-foods{
+    background: #1C1C1C;
+    padding-top: 150px;
+}
+
+.all-foods-test img{
+    width: 100%;
+}
+.all-foods-test{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.all-foods-text{
+    position: absolute;
+    top: 63px; 
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.all-foods-text h2{
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.all-foods-text .text-1{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.all-foods-text .text-2{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #f6762c78;
+}
+.all-foods-text .text-2 span{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #F6762C;
+}
+.all-foods-text button{
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-size: 12px;
+    background: #F6762C;
+    border-radius: 5px;
+    padding: 13px 36px 12px 36px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.all-foods-text button:hover{
+    background: rgb(255, 0, 0);
+}
+.all-foods-text-2{
+    position: absolute;
+    top: 63px; 
+    left: 50px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.all-foods-text-2 h2{
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.all-foods-text-2 .text-1{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.all-foods-text-2 .text-2{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #f6762c78;
+}
+.all-foods-text-2 .text-2 span{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #F6762C;
+}
+.all-foods-text-2 button{
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-size: 12px;
+    background: #F6762C;
+    border-radius: 5px;
+    padding: 13px 36px 12px 36px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.all-foods-text-2 button:hover{
+    background: rgb(255, 0, 0);
+}
+.all-people img{
+   /*  padding-top: 146px;
+    padding-bottom: 194px;
+    padding-right: 128px; */
+    width: 100%;
+}
+.text-right .fon-aws{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    background: #F6762C;
+    opacity: 0.1;
+}
+.text-right .fon-aws .fa, .fas{
+    color: #F6762C;
+    font-size: 20px;
+    padding-bottom: 37px;
+}
+/* .right-text{
+    margin-left: 85px; 
+} */
+.right-text .text p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+}
+.right-text .text h3{
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #fff;
+}
+.right-text .text h4{
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+/* all-foods end */
+/* ************************************ */
+/* section-download */
+.section-download{
+    background: #312F30;
+    padding-top: 62px;
+    padding-bottom: 62px; 
+}
+.section-download h1{
+    font-family: 'Roboto';  
+    font-size: 40px;
+    color:#FFFFFF;
+}
+.section-download button{
+    background: #F6762C;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 15px 38px 15px 39px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.section-download button:hover{
+    background: rgb(255, 0, 0);
+}
+/* section-download end */
+/* *************************************** */
+/* footer start */
+
+footer{
+    background: #1C1C1C;
+}
+footer img{
+    width: 132px;
+}
+footer i{
+    color: #F6762C;
+    font-size: 15px;
+}
+footer p{
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+footer h4{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #fff;
+    margin-top: 126px;
+}
+footer h3{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #fff;
+    margin-top: 126px;
+}
+
+@media (max-width: 1200px){
+    .all-foods-text-2 {
+        position: absolute;
+        top: 25px;
+        left: 15px;
+    }
+    .all-foods-text {
+        position: absolute;
+        top: 25px;
+    }
+}
+@media (max-width: 991px){
+    header .navbar-collapse{
+        background: red;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .all-foods-text h2 {
+        font-size: 50px;
+    }
+    .all-foods-text .text-1 {
+        font-size: 20px;
+}
+.all-foods-text .text-2 span {
+    font-size: 25px;
+}
+.all-foods-text .text-2 {
+    font-size: 25px;
+}
+.all-foods-text button {
+    font-size: 16px;
+    padding: 16px 44px 16px 36px;
+}
+.all-foods-text-2 h2 {
+    font-size: 50px;
+}
+.all-foods-text-2 .text-1 {
+    font-size: 20px;
+}
+.all-foods-text-2 .text-2 {
+    font-size: 25px;
+}
+.all-foods-text-2 .text-2 span{
+    font-size: 25px;
+}
+.all-foods-text-2 button {
+    font-size: 16px;
+    padding: 16px 44px 16px 36px;
+}
+.burger-king h1 {
+    font-size: 45px;
+    padding-top: 115px;
+    padding-bottom: 18px;
+    padding-left: 35%;
+}
+.burger-king .p-1 {
+    font-size: 20px;
+}
+.burger-king .p-2 {
+    font-size: 23px;
+}
+.burger-king .p-2 span {
+    font-size: 23px;
+}
+
+}
+@media (max-width: 520px){
+    .burger-king h1 {
+        font-size: 35px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        padding-left: 20%;
+    }
+    .burger-king .p-1 {
+    font-size: 16px;
+    }
+    .burger-king .p-2 {
+    font-size: 20px;
+    }
+    .burger-king .p-2 span {
+    font-size: 20px;
+    }
+    .all-foods-text h2 {
+        font-size: 35px;
+    }
+    .all-foods-text .text-1 {
+        font-size: 16px;
+    }
+    .all-foods-text .text-2 span {
+        font-size: 20px;
+    }
+    .all-foods-text button {
+        font-size: 12px;
+        padding: 11px 26px 11px 25px;
+    }
+    .all-foods-text-2 h2 {
+        font-size: 35px;
+    }
+    .all-foods-text-2 .text-1 {
+        font-size: 16px;
+    }
+    .all-foods-text .text-2 {
+        font-size: 20px;
+    }
+    .all-foods-text-2 .text-2 span {
+        font-size: 20px;
+    }
+    .all-foods-text-2 button {
+        font-size: 12px;
+        padding: 11px 26px 11px 25px;
+    }
+    .all-foods-text-2 .text-2 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 405px){
+    .burger-king h1 {
+        font-size: 30px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        padding-left: 20%;
+    }
+    .burger-king .p-1 {
+        font-size: 14px;
+    }  
+    .burger-king .p-2 {
+        font-size: 16px;
+    }
+    .burger-king .p-2 span {
+        font-size: 16px;
+    }
+    .burger-king button {
+        padding: 15px 37px;
+        font-size: 16px;
+    }
+    .all-foods-text h2 {
+        font-size: 20px;
+    }
+    .all-foods-text .text-1 {
+        font-size: 12px;
+    }
+    .all-foods-text .text-2 span {
+        font-size: 14px;
+    }
+    .all-foods-text .text-2 {
+        font-size: 14px;
+    }
+    .all-foods-text button {
+        font-size: 10px;
+        padding: 10px 25px 10px 25px;
+    }
+    .all-foods-text-2 {
+        position: absolute;
+        left: 0px;
+    }
+    .all-foods-text-2 h2 {
+        font-size: 20px;
+    }
+    .all-foods-text-2 .text-1 {
+        font-size: 12px;
+    }
+    .all-foods-text-2 .text-2 span {
+        font-size: 14px;
+    }
+    .all-foods-text-2 .text-2 {
+        font-size: 14px;
+    }
+    .all-foods-text-2 button {
+        font-size: 10px;
+        padding: 10px 25px 10px 25px;
+    }
+}
+@media (max-width: 444px){
+    .header-text h1 {
+       font-size: 36px
+    }
+    .header-text p{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .header-text h4{
+        font-size: 12px;
+    }
+}
